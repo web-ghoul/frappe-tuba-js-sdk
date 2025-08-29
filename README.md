@@ -1,4 +1,4 @@
-# frappe-js-sdk
+# frappe-tuba-js-sdk
 
 TypeScript/JavaScript library for a [Frappe Framework](https://frappeframework.com) backend.
 
@@ -25,24 +25,16 @@ We plan to add the following features in the future:
 
 The library uses [Axios](https://axios-http.com) under the hood to make API calls to your Frappe backend.
 
-## Maintainers
-
-| Maintainer     | GitHub                                          | Social                                                       |
-| -------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| Nikhil Kothari | [nikkothari22](https://github.com/nikkothari22) | [@nik_kothari22](https://twitter.com/nik_kothari22)          |
-| Janhvi Patil   | [janhvipatil](https://github.com/janhvipatil)   | [@janhvipatil_](https://twitter.com/janhvipatil_)           |
-| Sumit Jain     | [sumitjain236](https://github.com/sumitjain236) | [LinkedIn](https://www.linkedin.com/in/sumit-jain-66bb5719a) |
-
 ## Installation
 
 ```bash
-npm install frappe-js-sdk
+npm install frappe-tuba-js-sdk
 ```
 
 or
 
 ```bash
-yarn add frappe-js-sdk
+yarn add frappe-tuba-js-sdk
 ```
 
 ## Initialising the library
@@ -77,7 +69,7 @@ const frappe = new FrappeApp("https://test.frappe.cloud", {
 const auth = frappe.auth()
 ```
 
-#### Login a user:
+#### Login a user
 
 This makes an API call to the `/api/method/login` endpoint.
 
@@ -88,7 +80,7 @@ auth
   .catch((error) => console.error(error));
 ```
 
-#### Get currently logged in user:
+#### Get currently logged in user
 
 This makes an API call to the `/api/method/frappe.auth.get_logged_user` endpoint.
 
@@ -99,7 +91,7 @@ auth
   .catch((error) => console.error(error));
 ```
 
-#### Logout:
+#### Logout
 
 This makes an API call to the `/api/method/logout` endpoint.
 
@@ -285,6 +277,7 @@ db.submit(doc)
 ```
 
 #### Cancel a document
+
 To cancel a submitted document, pass the name of the DocType and document name to `cancel`.
 
 ```js
