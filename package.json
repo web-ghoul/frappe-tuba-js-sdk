@@ -1,6 +1,6 @@
 {
-  "name": "frappe-js-sdk",
-  "version": "1.10.0",
+  "name": "frappe-tuba-js-sdk",
+  "version": "2.0.0",
   "description": "TypeScript/JavaScript client for Frappe Framework REST API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,17 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-Commit-Company/frappe-js-sdk.git"
+    "url": "git+https://github.com/web-ghoul/frappe-tuba-js-sdk.git"
   },
   "keywords": [
     "Frappe"
   ],
-  "author": "Nikhil Kothari",
+  "author": "Nikhil Kothari & webGhoul",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/The-Commit-Company/frappe-js-sdk/issues"
+    "url": "https://github.com/web-ghoul/frappe-tuba-js-sdk/issues"
   },
-  "homepage": "https://github.com/The-Commit-Company/frappe-js-sdk#readme",
+  "homepage": "https://github.com/web-ghoul/frappe-tuba-js-sdk#readme",
   "devDependencies": {
     "prettier": "^3.2.5",
     "tslint": "^6.1.3",
